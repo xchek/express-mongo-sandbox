@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+  mongo:
+    image: mongo
+
+  express-app:
+    build: .
+    ports:
+      - "3000:8080"
+    links:
+      - mongo
+    environment: 
+      - MONGODB_URI=mongodb://mongo:27017

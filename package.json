@@ -1,0 +1,19 @@
+{
+  "name": "express-mongo-sandbox",
+  "version": "1.0.0",
+  "description": "`docker build -t IMAGE_NAME .`",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-winston": "^4.2.0",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.2.1",
+    "winston": "^3.3.3"
+  }
+}
